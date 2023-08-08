@@ -7,3 +7,4 @@ def send_data(event):
     data = f"{event.x},{event.y}\n"
     client_socket.sendall(data.encode())
 
+def receive_data():
