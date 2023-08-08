@@ -13,3 +13,4 @@ def receive_data():
         coords = data.split(',')
         x, y = int(coords[0]), int(coords[1])
         canvas.create_text(x, y, text="*", fill="blue")
+
