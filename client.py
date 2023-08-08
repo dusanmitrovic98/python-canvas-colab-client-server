@@ -11,3 +11,4 @@ def receive_data():
     while True:
         data = client_socket.recv(1024).decode()
         coords = data.split(',')
+        x, y = int(coords[0]), int(coords[1])
