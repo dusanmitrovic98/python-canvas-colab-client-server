@@ -19,3 +19,4 @@ client_socket.connect(('127.0.0.1', 8080))
 
 root = Tk()
 root.title("Collaborative Canvas")
+canvas = Canvas(root, width=800, height=600, bg="white")
