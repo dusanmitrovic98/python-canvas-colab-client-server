@@ -20,3 +20,4 @@ def handle_client(client_socket):
     client_socket.close()
 
 def start_server():
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
