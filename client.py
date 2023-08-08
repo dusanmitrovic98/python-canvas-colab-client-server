@@ -8,3 +8,4 @@ def send_data(event):
     client_socket.sendall(data.encode())
 
 def receive_data():
+    while True:
