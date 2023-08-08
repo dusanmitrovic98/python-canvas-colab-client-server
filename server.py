@@ -26,3 +26,4 @@ def start_server():
 
     print("Server listening on port 8080...")
 
+    while True:
