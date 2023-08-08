@@ -12,3 +12,4 @@ def receive_data():
         data = client_socket.recv(1024).decode()
         coords = data.split(',')
         x, y = int(coords[0]), int(coords[1])
+        canvas.create_text(x, y, text="*", fill="blue")
