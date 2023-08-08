@@ -15,3 +15,4 @@ def handle_client(client_socket):
             for client in clients:
                 client.sendall(data.encode())
         except:
+            break
