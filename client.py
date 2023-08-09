@@ -24,3 +24,4 @@ canvas.pack()
 
 canvas.bind("<B1-Motion>", send_data)
 
+receiver_thread = threading.Thread(target=receive_data)
