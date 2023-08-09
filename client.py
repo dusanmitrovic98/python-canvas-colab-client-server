@@ -23,3 +23,4 @@ canvas = Canvas(root, width=800, height=600, bg="white")
 canvas.pack()
 
 canvas.bind("<B1-Motion>", send_data)
+
