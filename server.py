@@ -28,3 +28,4 @@ def start_server():
 
     while True:
         client_socket, addr = server.accept()
+        clients.append(client_socket)
