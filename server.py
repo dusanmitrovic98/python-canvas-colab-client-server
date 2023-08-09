@@ -4,3 +4,4 @@ import threading
 clients = []
 canvas = []
 
+def handle_client(client_socket):
