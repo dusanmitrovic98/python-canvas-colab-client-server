@@ -3,3 +3,4 @@ import threading
 from tkinter import *
 
 def send_data(event):
+    data = canvas.create_text(event.x, event.y, text="*", fill="red")
