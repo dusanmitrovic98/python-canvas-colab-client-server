@@ -14,3 +14,4 @@ def receive_data():
         x, y = int(coords[0]), int(coords[1])
         canvas.create_text(x, y, text="*", fill="blue")
 
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
