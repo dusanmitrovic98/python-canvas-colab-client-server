@@ -27,3 +27,4 @@ def start_server():
     print("Server listening on port 8080...")
 
     while True:
+        client_socket, addr = server.accept()
