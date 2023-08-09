@@ -16,3 +16,4 @@ def handle_client(client_socket):
                 client.sendall(data.encode())
         except:
             break
+
