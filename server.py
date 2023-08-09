@@ -29,3 +29,4 @@ def start_server():
     while True:
         client_socket, addr = server.accept()
         clients.append(client_socket)
+        client_thread = threading.Thread(target=handle_client, args=(client_socket,))
