@@ -11,3 +11,4 @@ def handle_client(client_socket):
             data = client_socket.recv(1024).decode()
             if not data:
                 break
+            canvas.append(data)
