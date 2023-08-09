@@ -24,3 +24,4 @@ def start_server():
     server.bind(('0.0.0.0', 8080))
     server.listen(5)
 
+    print("Server listening on port 8080...")
