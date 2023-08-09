@@ -9,3 +9,4 @@ def send_data(event):
 
 def receive_data():
     while True:
+        data = client_socket.recv(1024).decode()
