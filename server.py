@@ -12,3 +12,4 @@ def handle_client(client_socket):
             if not data:
                 break
             canvas.append(data)
+            for client in clients:
