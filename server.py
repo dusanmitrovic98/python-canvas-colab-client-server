@@ -32,3 +32,4 @@ def start_server():
         client_thread = threading.Thread(target=handle_client, args=(client_socket,))
         client_thread.start()
 
+start_server()
