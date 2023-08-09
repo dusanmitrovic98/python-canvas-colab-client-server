@@ -13,3 +13,4 @@ def handle_client(client_socket):
                 break
             canvas.append(data)
             for client in clients:
+                client.sendall(data.encode())
