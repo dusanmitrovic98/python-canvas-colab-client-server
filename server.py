@@ -17,3 +17,4 @@ def handle_client(client_socket):
         except:
             break
 
+    client_socket.close()
