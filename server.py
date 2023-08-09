@@ -14,3 +14,4 @@ def handle_client(client_socket):
             canvas.append(data)
             for client in clients:
                 client.sendall(data.encode())
+        except:
