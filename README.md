@@ -15,3 +15,4 @@ Follow these instructions to set up and run the collaborative canvas on your loc
    cd python-colab-canvas-client-server
    ```
 
+2. Install the required dependencies:
