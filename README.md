@@ -25,3 +25,4 @@ Follow these instructions to set up and run the collaborative canvas on your loc
 
 1. Start the server:
 
+   ```sh
