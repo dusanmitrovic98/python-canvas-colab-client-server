@@ -29,3 +29,4 @@ Follow these instructions to set up and run the collaborative canvas on your loc
    python server.py
    ```
 
+2. Start one or more client applications:
