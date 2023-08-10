@@ -36,3 +36,4 @@ Follow these instructions to set up and run the collaborative canvas on your loc
    ```
 
 3. Collaboratively draw on the canvas using the mouse.
+
