@@ -32,3 +32,4 @@ Follow these instructions to set up and run the collaborative canvas on your loc
 2. Start one or more client applications:
 
    ```sh
+   python client.py
