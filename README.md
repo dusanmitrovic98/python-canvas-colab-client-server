@@ -4,3 +4,4 @@ Follow these instructions to set up and run the collaborative canvas on your loc
 
 ### Prerequisites
 
+- Python 3.x
