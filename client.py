@@ -28,4 +28,3 @@ receiver_thread = threading.Thread(target=receive_data)
 receiver_thread.start()
 
 root.mainloop()
-
