@@ -25,3 +25,14 @@ Follow these instructions to set up and run the collaborative canvas on your loc
 
 1. Start the server:
 
+   ```sh
+   python server.py
+   ```
+
+2. Start one or more client applications:
+
+   ```sh
+   python client.py
+   ```
+
+3. Collaboratively draw on the canvas using the mouse.
